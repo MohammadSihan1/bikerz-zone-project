@@ -25,6 +25,11 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <style>
+      .black-and-white img {
+          filter: grayscale(100%);
+      }
+  </style>
   </head>
   <body class="p-10">
     <header>
@@ -76,8 +81,11 @@
     </header>
     <main class="py-14 px-14">
       <section>
-        <div class="carousel ">
-          <div id="slide1" class="carousel-item flex items-center justify-center  relative w-full">
+        <div class="carousel">
+          <div
+            id="slide1"
+            class="carousel-item flex items-center justify-center relative w-full"
+          >
             <div class="w-100">
               <h1 class="font-bold text-7xl">
                 Ride-on R15 V4 <br />
@@ -99,7 +107,10 @@
               <a href="#slide2" class="btn btn-circle">❯</a>
             </div>
           </div>
-          <div id="slide2" class="carousel-item flex items-center justify-center relative w-full">
+          <div
+            id="slide2"
+            class="carousel-item flex items-center justify-center relative w-full"
+          >
             <div class="w-100">
               <h1 class="font-bold text-7xl">
                 Ride-on R15 V4 <br />
@@ -121,7 +132,10 @@
               <a href="#slide3" class="btn btn-circle">❯</a>
             </div>
           </div>
-          <div id="slide3" class="carousel-item flex items-center justify-center relative w-full">
+          <div
+            id="slide3"
+            class="carousel-item flex items-center justify-center relative w-full"
+          >
             <div class="w-100">
               <h1 class="font-bold text-7xl">
                 Ride-on R15 V4 <br />
@@ -143,7 +157,10 @@
               <a href="#slide4" class="btn btn-circle">❯</a>
             </div>
           </div>
-          <div id="slide4" class="carousel-item flex items-center justify-center relative w-full">
+          <div
+            id="slide4"
+            class="carousel-item flex items-center justify-center relative w-full"
+          >
             <div class="w-100">
               <h1 class="font-bold text-7xl">
                 Ride-on R15 V4 <br />
@@ -166,6 +183,22 @@
             </div>
           </div>
         </div>
+      </section>
+      <section>
+        <div class="my-14">
+        <h1 class="font-semibold text-5xl text-center">Featured Bike This Year</h1>
+        <p class="text-xl text-center">Best Bike Collection</p>
+        </div>
+        <div class="grid lg:grid-cols-3 sm:grid-cols-1">
+          <div class="image-piece black-and-white">
+              <img src="/images/others/feature-bike.png" alt="Image 1">
+          </div>
+          <div class="image-piece">
+              <img src="/images/others/feature-bike.png" alt="Image 2">
+          </div>
+          <div class="image-piece black-and-white">
+              <img src="/images/others/feature-bike.png" alt="Image 3">
+          </div>
       </section>
     </main>
     <footer></footer>
